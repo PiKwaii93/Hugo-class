@@ -1,0 +1,4 @@
+baseURL = 'https://meow.org/'
+languageCode = 'en-us'
+title = 'Meow meow meow'
+theme = "ananke"
