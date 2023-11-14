@@ -1,9 +1,9 @@
-baseURL = 'https://pikwaii93.github.io/Hugo-class/'
-languageCode = 'en-fr'
-title = 'Spider-Cat'
-theme = "ananke"
+title = "Notre-Dame de Paris"
+baseURL = "https://gohugo-theme-ananke.pages.dev"
+languageCode = "en-fr"
+theme = ["github.com/theNewDynamic/gohugo-theme-ananke"]
 resourceDir = "../resources"
-disqusShortname = false
+disqusShortname = YOURSHORTNAME
 
 DefaultContentLanguage = "fr"
 SectionPagesMenu = "main"
