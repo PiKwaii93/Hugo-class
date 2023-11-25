@@ -1,0 +1,25 @@
+<nav class="custom-nav">
+  <div class="nav-container-logo">
+    <a href="{{ .Site.Home.RelPermalink }}" class="f3 fw2 hover-white no-underline white-90 dib custom-logo">
+      {{ with .Site.Params.site_logo }}
+        <img src="{{ relURL . }}" class="w100 mw5-ns" alt="{{ $.Site.Title }}" />
+      {{ else }}
+        {{ .Site.Title }}
+      {{ end }}
+    </a>
+  </div>
+  <div class="flex-l items-center custom-items-container">
+    {{ partial "i18nlist.html" . }}
+    {{ if .Site.Menus.main }}
+      <ul class="{{ cond (eq $.Site.Language.LanguageDirection "rtl") "pr0 ml3" "pl0 mr3" }}">
+        {{ range .Site.Menus.main }}
+        <li class="list f5 f4-ns fw4 dib {{ cond (eq $.Site.Language.LanguageDirection "rtl") "pl3" "pr3" }}">
+          <a class="custom-nav-link hover-white no-underline white-90 custom-link-nav-1" href="{{ .URL }}" title="{{ i18n "pageTitle" . }}">
+            {{ .Name }}
+          </a>
+        </li>
+        {{ end }}
+      </ul>
+    {{ end }}
+  </div>
+</nav>

@@ -9,8 +9,7 @@ featured_image: '/images/istockphoto-1688578381-170667a.jpg'
 
 ---
 
-Ceci est la page de contact en Français.
-
-This is an example of a custom shortcode that you can put right into your content. You will need to add a form action to the shortcode to make it work. Check out [Formspree](https://formspree.io/) for a simple, free form service.
+Vous rencontrez un problème ? 😿 
+Vous pouvez nous adresser un mail avec l'objet de celui-ci. Détaillez ce dernier en dessous. 🫴
 
 {{< form-contact action="https://example.com"  >}}

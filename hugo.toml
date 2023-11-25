@@ -1,6 +1,6 @@
 baseURL = 'https://pikwaii93.github.io/Hugo-class/'
-languageCode = 'en-fr'
-title = 'Spider-Cat'
+languageCode = 'fr-fr'
+title = 'Spider-Cat Website'
 theme = "ananke"
 resourceDir = "../resources"
 disqusShortname = false
@@ -13,12 +13,12 @@ enableRobotsTXT = true
 
 [languages]
   [languages.en]
-    title = "Ananke"
+    title = "Spidercat🐱🕸️"
     weight = 1
     contentDir = "content/en"
     # languageDirection = 'rtl' for Right-To-Left languages
   [languages.fr]
-    title = "Ananke Fr"
+    title = "Spidercat🐱🕸️"
     weight = 2
     contentDir = "content/fr"
 
@@ -28,16 +28,33 @@ enableRobotsTXT = true
   filename = "sitemap.xml"
 
 [params]
-  commentoEnable = true
-  text_color = ""
-  author = ""
+  custom_css = ["css/custom.css"]
+  commentoEnable = false
+  text_color = "white"
+  author = "Spidercat🐱🕸️"
   favicon = ""
   site_logo = ""
-  description = "The last theme you'll ever need. Maybe."
+  description = "Premier projet Hugo HETIC 2023"
   # choose a background color from any on this page: https://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-blue"
+  background_color_class = "bg-navy"
   recent_posts_number = 3
+  # Paramètres spécifiques au thème Ananke
+  showReadingTime = true
+  featured_image = '/images/banner.jpg'
 
 [[params.ananke_socials]]
 name = "twitter"
 url = "https://twitter.com/GoHugoIO"
+
+[[params.ananke_socials]]
+name = "youtube"
+url = "https://www.youtube.com/watch?v=GBIIQ0kP15E"
+
+[[params.ananke_socials]]
+name = "github"
+url = "https://github.com/PiKwaii93"
+
+[[params.ananke_socials]]
+name = "instagram"
+url = "https://www.instagram.com/maxence.nho/"
+

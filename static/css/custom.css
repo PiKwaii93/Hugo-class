@@ -1,0 +1,221 @@
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.footer-container{
+  display: flex;
+  width: 100%;
+  padding: 24px 16px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-top: 4px solid var(--Violet, #909);
+  background: var(--Noir, #000);
+}
+
+.footer-copyright-container{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.footer-social-container{
+  display: flex;
+  padding: 0px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  align-self: stretch;
+}
+
+.custom-nav{
+  display: flex;
+  width: 100%;
+  padding: 24px 16px;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: 4px solid var(--Violet, #909);
+  background: var(--Noir, #000);
+}
+
+.nav-container-logo{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.custom-items-container{
+  display: flex;
+  padding: 0px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  align-self: stretch;
+}
+
+.custom-link-nav-1{
+  color: var(--Orange, #F60);
+  text-align: center;
+  font-family: "Nosifer";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.custom-link-nav-2{
+  color: var(--Orange, #F60);
+  text-align: center;
+  font-family: Nosifer;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.custom-logo{
+  color: var(--Orange, #F60);
+  text-align: center;
+  font-family: "Nosifer";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.custom-hero-title{
+  color: var(--Orange, #F60);
+  text-align: center;
+  font-family: "Nosifer";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.custom-hero-description{
+  color: var(--Orange, #F60);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.custom-hero-image{
+  padding: 12rem 0;
+}
+
+.second-article{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.custom-welcome-message{
+  display: flex;
+  padding: 24px 16px;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.custom-welcome-message > p {
+  color: #FFF;
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+body{
+  background: linear-gradient(180deg, #000 0%, rgb(0 0 0 / 80%) 100%);
+  color: white;
+}
+
+.custom-link-article{
+  color: var(--Orange, #F60);
+  text-align: center;
+  font-family: Open Sans;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.custom-link-article-container{
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-bottom: 1px solid var(--Violet, #909);
+  width: max-content;
+}
+
+.second-article-text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.custom-read-more{
+  color: var(--Orange, #F60);
+  border: 1px solid var(--Violet, #909);
+  border-radius: 10px;
+  background: linear-gradient(180deg, #000 0%, rgb(0 0 0 / 80%) 100%);
+}
+
+.custom-article-container{
+  color:white;
+}
+
+.custom-article-link{
+  color:#F60;
+}
+
+.custom-article-link:hover{
+  color:#909;
+}
+
+.custom-article-listing{
+  background: linear-gradient(180deg, #000 0%, rgb(0 0 0 / -80%) 100%);
+  border: 2px solid #990099;
+  border-radius: 10px;
+}
+
+.custom-nav-link:hover{
+  color:#909
+}
+
+.pagination li a{
+  color: #990099;
+  background-color: #000000; 
+  border: 2px solid #990099; 
+  border-radius: 5px; 
+}
+
+.pagination li.active a, .pagination li.active a:link, .pagination li.active a:active, .pagination li.active a:visited {
+  color: #FFFFFF; 
+  background-color: #990099; 
+  border: 1px solid #990099; 
+  border-radius: 5px; 
+  margin: 0 5px; 
+}
+
+.instapaper_ignoref{
+  display: none;
+}
+
+.custom-form-text{
+  color:white;
+}
+
+.custom-taxonomy-container{ 
+  background: linear-gradient(180deg, #000 0%, rgb(0 0 0 / -80%) 100%);
+  border: 2px solid #990099;
+  border-radius: 10px;
+}

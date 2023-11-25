@@ -1,7 +1,7 @@
 ---
 date: 2017-04-11T11:13:32-04:00
 description: "Monsieur the Cardinal"
-featured_image: ""
+featured_image: "/images/Pope-Edouard-de-Beaumont-1844.jpg"
 tags: []
 title: "Chapter III: Monsieur the Cardinal"
 ---
